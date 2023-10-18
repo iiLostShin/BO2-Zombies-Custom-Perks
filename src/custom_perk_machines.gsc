@@ -520,7 +520,6 @@ default_vending_precaching()
 	level._effect[ "wall_taseknuck" ] = loadfx( "maps/zombie/fx_zmb_wall_buy_taseknuck" );
 }
 
-custom_get_player_weapon_limit( player )
 {
     weapon_limit = 2;
     if ( player hascustomperk("MULE") )
